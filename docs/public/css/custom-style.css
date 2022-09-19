@@ -1,0 +1,20 @@
+body {
+  font-size: 14px;
+}
+
+:root {
+  --vc-primary-color: #295dfa;
+  --vc-primary-hover-color-lighter: #547dfb;
+  --vc-primary-hover-color: #053eeb;
+  --vc-border-color: #dcdfe6;
+  --vc-border-radius-base: 6px;
+  --vc-example-padding: 24px;
+}
+
+:root {
+  --vp-c-brand: var(--vc-primary-color);
+  --vp-c-brand-light: var(--vc-primary-hover-color);
+  --vp-c-brand-lighter: var(--vc-primary-hover-color-lighter);
+  --vp-c-brand-dark: var(--vc-primary-color);
+  --vp-c-brand-darker: var(--vc-primary-hover-color);
+}

@@ -1,0 +1,27 @@
+{
+  "name": "@much-more/vc-element-plus",
+  "version": "1.0.0",
+  "description": "声音云二次封装 element-plus",
+  "main": "dist/vc-element-plus.cjs.js",
+  "moudle": "dist/vc-element-plus.es.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "docs:build": "vite build --mode docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "vue": "^3.2.0"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.0.6",
+    "@much-more/vc-shared": "workspace:*",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "element-plus": "^2.2.8",
+    "less": "^4.1.3",
+    "lodash": "^4.17.21",
+    "vue": "^3.2.36",
+    "vue-router": "4"
+  }
+}

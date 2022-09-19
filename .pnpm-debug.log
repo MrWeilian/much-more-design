@@ -1,0 +1,15 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "workspacePrefix": "/Users/chenweilian/lizhi/voice-ui"
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_NO_SCRIPT",
+    "err": {
+      "name": "pnpm",
+      "message": "Missing script: dev",
+      "code": "ERR_PNPM_NO_SCRIPT",
+      "stack": "pnpm: Missing script: dev\n    at Object.handler (/Users/chenweilian/.nvm/versions/node/v16.13.2/lib/node_modules/pnpm/dist/pnpm.cjs:177401:15)\n    at async /Users/chenweilian/.nvm/versions/node/v16.13.2/lib/node_modules/pnpm/dist/pnpm.cjs:181595:21\n    at async run (/Users/chenweilian/.nvm/versions/node/v16.13.2/lib/node_modules/pnpm/dist/pnpm.cjs:181569:34)\n    at async runPnpm (/Users/chenweilian/.nvm/versions/node/v16.13.2/lib/node_modules/pnpm/dist/pnpm.cjs:181780:5)\n    at async /Users/chenweilian/.nvm/versions/node/v16.13.2/lib/node_modules/pnpm/dist/pnpm.cjs:181772:7"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@much-more/vc-shared",
+  "version": "v1.0.2",
+  "description": "声音云工具函数",
+  "main": "dist/vc-shared.cjs.js",
+  "module": "dist/vc-shared.es.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^2.9.13"
+  }
+}
