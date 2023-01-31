@@ -5,6 +5,8 @@ hero:
   name: much-more-design
   text: 前端组件库
   tagline: 基于 element-ui 、 element-plus 、 ant-design 框架进行功能扩展，提供更接近业务场景的组件。
+  image:
+    src: /images/much-more-icon.svg
   actions:
     - theme: brand
       text:  vue3-快速开始
