@@ -16,7 +16,7 @@ hero:
       link: /zh-CN/guide/elu-install
     - theme: alt
       text:  掘金主页
-      link: https://juejin.cn/user/3544481218962183/posts
+      link: https://juejin.cn/user/3544481218962183
 
 features:
   - icon: ⚡️
