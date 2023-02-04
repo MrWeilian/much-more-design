@@ -1,7 +1,7 @@
 {
   "name": "much-more-design",
   "version": "1.0.16",
-  "description": "声音云组件库",
+  "description": "组件库",
   "scripts": {
     "docs:dev": "pnpm run -C docs docs:dev",
     "docs:build": "pnpm run -C docs docs:build && pnpm run -C packages/element-plus docs:build && pnpm run -C packages/element-ui docs:build",

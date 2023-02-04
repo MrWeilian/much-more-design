@@ -1,6 +1,6 @@
 <template>
-  <div class="table-wrapper">
-    <div class="table-options">
+  <div :class="`${classPrefix}-table`">
+    <div :class="`${classPrefix}-table__options`">
       <el-popover
           :append-to-body="false"
           :popper-options="{
@@ -30,7 +30,9 @@
           </el-checkbox-group>
         </div>
         <template #reference>
-          <el-icon class="options-item"><Setting /></el-icon>
+          <div>
+            <el-icon :class="`${classPrefix}-table__options__item`"><Setting /></el-icon>
+          </div>
         </template>
       </el-popover>
     </div>
@@ -51,6 +53,9 @@ import { ElPopover, ElCheckbox, ElCheckboxGroup, ElIcon } from 'element-plus'
 import RenderElTable from './render-el-table.vue'
 import { Setting } from '@element-plus/icons-vue'
 import { ref, onMounted} from 'vue'
+import { usePrefix } from '@much-more/hooks';
+
+const { classPrefix } = usePrefix()
 
 let staticOptions = []
 
@@ -99,21 +104,19 @@ import { defineComponent } from 'vue'
 export default defineComponent({
   name: 'VcTable'
 })
-</script>
+</scrip
 
-<style scoped lang="less">
-.table-wrapper {
-  .table-options {
-    height: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    .options-item {
-      cursor: pointer;
-    }
-    .options-item + .options-item {
-      margin-right: 8px;
+<style lang="less">
+  .mm-table {
+    &__options {
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      &__item {
+        cursor: pointer;
+        margin-right: 8px;
+      }
     }
   }
-}
 </style>

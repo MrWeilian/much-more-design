@@ -1,7 +1,7 @@
 {
   "name": "@much-more/vc-element-ui",
   "version": "1.0.0",
-  "description": "声音云二次封装 element-ui",
+  "description": "二次封装 element-ui",
   "main": "dist/vc-element-ui.cjs.js",
   "module": "dist/vc-element-ui.es.js",
   "scripts": {

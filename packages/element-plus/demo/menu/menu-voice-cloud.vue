@@ -1,7 +1,7 @@
 <template>
   <el-container class="aside">
     <el-aside>
-      <vc-menu title="声音云" v-model:collapse="collapse">
+      <vc-menu title="" v-model:collapse="collapse">
         <el-sub-menu index="0">
           <template #title>
             <el-icon>

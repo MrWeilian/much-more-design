@@ -1,7 +1,7 @@
 {
   "name": "@much-more/vc-ant-design",
   "version": "1.0.0",
-  "description": "声音云二次封装ant-design",
+  "description": "二次封装ant-design",
   "main": "dist/vc-ant-design.cjs.js",
   "module": "dist/vc-ant-design.es.js",
   "scripts": {
