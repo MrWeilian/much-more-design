@@ -52,7 +52,7 @@ import { ref, computed, onMounted } from 'vue'
 import { ElIcon, ElTooltip, ElCollapseTransition, ElButton, ElMessage } from 'element-plus'
 import { FullScreen, DCaret, CaretTop, CopyDocument } from '@element-plus/icons-vue'
 import { useClipboard } from '@vueuse/core'
-import 'prismjs/themes/prism.css'
+import 'prismjs/themes/prism-tomorrow.css'
 
 const props = defineProps({
   libType: {
@@ -199,7 +199,7 @@ export default {
   }
 }
 .source-code {
-  background-color: #e4f1ff;
+  background-color: #f6f8fa;
   position: relative;
   border-top: 1px solid var(--vp-custom-block-details-border);
   .decode {

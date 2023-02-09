@@ -104,7 +104,7 @@ import { defineComponent } from 'vue'
 export default defineComponent({
   name: 'VcTable'
 })
-</scrip
+</script>
 
 <style lang="less">
   .mm-table {
